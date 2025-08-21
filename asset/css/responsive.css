@@ -1,0 +1,476 @@
+@media only screen and (max-width:1025px) {
+
+    br {
+        display: none;
+    }
+
+    p {
+        font-size: 2.2vw;
+    }
+
+    span {
+        font-size: 3vw;
+    }
+
+    /* scroll */
+
+    .scroll {
+        height: 7vw;
+        width: 7vw;
+        font-size: 4vw;
+    }
+
+    /* content main */
+
+    .nav-btn {
+        width: 100% !important;
+    }
+
+    .main-text {
+        font-size: 6vw;
+    }
+
+    .navbar-nav {
+        background-color: transparent;
+        backdrop-filter: blur(0px);
+        border-radius: 0px;
+    }
+
+    /* content second */
+
+    .content-second .sec-img {
+        height: 50vh;
+    }
+
+    /* content third */
+
+    .content-third .third-first {
+        position: static !important;
+    }
+
+    /* content four */
+
+    .content-four .row2 .four-box .four-num {
+        height: 7vw;
+        width: 7vw;
+        font-size: 4vw;
+    }
+
+    /* content five */
+
+    .content-five .row2 {
+        background-color: transparent !important;
+    }
+
+    .content-five .five-box img {
+        width: 5vw;
+    }
+
+    .content-five .row2 {
+        transform: translateY(0%);
+    }
+
+    /* content six */
+
+    .six-child-row {
+        transform: translateY(0%);
+    }
+
+    .six-icon {
+        justify-content: center;
+    }
+
+    .six-icon img {
+        width: 8vw;
+    }
+
+    .six-child-row p {
+        font-size: 3vw;
+    }
+
+    /* content seven */
+
+    .sev-1 {
+        height: 60vh;
+    }
+
+    .sev-1 img {
+        width: 100% !important;
+    }
+
+    .sev-po {
+        right: 0%;
+    }
+
+    /* content eight */
+
+    .eight-img {
+        height: 50vh;
+    }
+
+    .eight-box {
+        margin: 5vw 0vw;
+    }
+
+    .eight-box h3 {
+        line-height: 4vw;
+    }
+
+    .play {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    @keyframes blink {
+        0% {
+            height: 10vw;
+            width: 10vw;
+        }
+
+        50% {
+            height: 10vw;
+            width: 10vw;
+            background-color: white;
+        }
+
+        100% {
+            background-color: transparent;
+            height: 15vw;
+            width: 15vw;
+        }
+    }
+
+    .play-child {
+        height: 10vw;
+        width: 10vw;
+    }
+
+    .play i {
+        font-size: 5vw;
+    }
+
+    .video iframe {
+        width: 70% !important;
+        height: 30% !important;
+    }
+
+    /* footer */
+
+    .content-footer {
+        padding-top: 25vw !important;
+    }
+
+    .footer-ul {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-line {
+        height: .2vw;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+
+    .con-main {
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+
+    span {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    /* scroll */
+
+    .scroll {
+        height: 10vw;
+        width: 10vw;
+        font-size: 6vw;
+    }
+
+    /* content main */
+
+    .main-text {
+        font-size: 10vw;
+    }
+
+    @keyframes main-img {
+        0% {
+            background-image: url(../img/main-1.webp);
+            background-size: 200%;
+        }
+
+        30% {
+            background-image: url(../img/main-1.webp);
+            background-size: 205%;
+        }
+
+        33% {
+            background-image: url(../img/main-1.webp);
+            background-size: 205%;
+        }
+
+        34% {
+            background-image: url(../img/main-2.webp);
+            background-size: 240%;
+        }
+
+        64% {
+            background-image: url(../img/main-2.webp);
+            background-size: 245%;
+        }
+
+        67% {
+            background-image: url(../img/main-2.webp);
+            background-size: 245%;
+        }
+
+        68% {
+            background-image: url(../img/main-3.webp);
+            background-size: 240%;
+        }
+
+        97% {
+            background-image: url(../img/main-3.webp);
+            background-size: 245%;
+        }
+
+        100% {
+            background-image: url(../img/main-3.webp);
+            background-size: 245%;
+        }
+    }
+
+    /* content second */
+
+    .content-second .sec-img {
+        height: 70vh !important;
+    }
+
+    .content-second .ri-medal-line {
+        font-size: 8vw !important;
+    }
+
+    .content-second .sec-award {
+        width: 75% !important;
+    }
+
+    /* content third */
+
+    .content-third .third-row2 .col img {
+        width: 10vw;
+    }
+
+    /* content four */
+
+    .content-four .row2 .four-box .four-num {
+        height: 10vw;
+        width: 10vw;
+        font-size: 7vw;
+    }
+
+    /* content five */
+
+    .content-five .five-box img {
+        width: 8vw;
+    }
+
+    /* content six */
+
+    .six-icon img {
+        width: 10vw;
+    }
+
+    .six-child-row h3 {
+        font-size: 7vw;
+    }
+
+    .six-child-row p {
+        font-size: 5vw;
+    }
+
+    /* content seven */
+
+    .sev-1 {
+        height: auto;
+    }
+
+    .sev-1 img {
+        width: 100% !important;
+    }
+
+    .sev-po {
+        position: static !important;
+        width: 100% !important;
+    }
+
+    /* content eight */
+
+    .eight-box h3 {
+        line-height: 6vw;
+    }
+
+    .play {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    @keyframes blink {
+        0% {
+            height: 15vw;
+            width: 15vw;
+        }
+
+        50% {
+            height: 15vw;
+            width: 15vw;
+            background-color: white;
+        }
+
+        100% {
+            background-color: transparent;
+            height: 20vw;
+            width: 20vw;
+        }
+    }
+
+    .play-child {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .play i {
+        font-size: 10vw;
+    }
+
+    .video iframe {
+        width: 90% !important;
+        height: 30% !important;
+    }
+
+    .video .ri-close-line {
+        width: 90% !important;
+    }
+
+    /* footer */
+
+    .content-footer {
+        padding-top: 35vw !important;
+    }
+
+    .footer-cir {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .footer-icon i {
+        font-size: 5vw;
+    }
+
+    .footer-line {
+        height: .5vw;
+    }
+}
+
+@media only screen and (max-width:420px) {
+
+    span {
+        font-size: 6vw;
+    }
+
+    .con-main {
+        font-size: 8vw;
+        line-height: 10vw;
+    }
+
+    /* content main */
+
+    @keyframes main-img {
+        0% {
+            background-image: url(../img/main-1.webp);
+            background-size: 270%;
+        }
+
+        30% {
+            background-image: url(../img/main-1.webp);
+            background-size: 275%;
+        }
+
+        33% {
+            background-image: url(../img/main-1.webp);
+            background-size: 275%;
+        }
+
+        34% {
+            background-image: url(../img/main-2.webp);
+            background-size: 320%;
+        }
+
+        64% {
+            background-image: url(../img/main-2.webp);
+            background-size: 325%;
+        }
+
+        67% {
+            background-image: url(../img/main-2.webp);
+            background-size: 325%;
+        }
+
+        68% {
+            background-image: url(../img/main-3.webp);
+            background-size: 320%;
+        }
+
+        97% {
+            background-image: url(../img/main-3.webp);
+            background-size: 325%;
+        }
+
+        100% {
+            background-image: url(../img/main-3.webp);
+            background-size: 325%;
+        }
+    }
+
+    /* content second */
+
+    .content-second .sec-award {
+        width: 100% !important;
+        border-top-left-radius: 5% !important;
+        border-top-right-radius: 5% !important;
+    }
+
+    /* content third */
+
+    /* content four */
+
+    /* content five */
+
+    .content-five .five-box img {
+        width: 12vw;
+    }
+
+    /* content eight */
+
+    .eight-box h3 {
+        line-height: 7vw;
+    }
+
+    /* footer */
+
+    .content-footer {
+        padding-top: 40vw !important;
+    }
+
+    .footer-cir {
+        height: 30vw;
+        width: 30vw;
+    }
+}
